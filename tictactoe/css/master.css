@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding:0;
+  margin-top: 0;
+}
+#mainblog{
+  background-image:url("../image/tt.jpg");
+	background-position:center;
+	background-size:cover;
+  //opacity:0.9;
+	height:60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family:Montserrat;
+  position: relative;
+
+
+}
+#mainblog h1{
+  color:black;
+  font-size: 100px;
+  z-index: 4;
+  //position: relative;
+}
+#mainblog h2{
+  color:black;
+}
+#mainblog p{
+  color:#bfff00;
+  //position: absolute;
+}
+body{
+  background-color:pink;
+  //margin-top: 20px;
+//  margin-bottom: 10px;
+padding-bottom: 20px;
+  text-align: center;
+}
+.button{
+  color: white;
+  background-color: orange;
+  text-decoration: none;
+//  background-color:blue;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border:1px solid black;
+  size:500%;
+}
+.button:hover{
+  background-color: skyblue;
+}
